@@ -20,5 +20,9 @@ class ViewController: UIViewController {
         print("Hello World")
     }
     
+    @IBAction func pressCheckMeOut(_ sender: Any) {
+        print("I Got This")
+        print("Funk Soul Brotha")
+    }
     
 }
