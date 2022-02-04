@@ -25,12 +25,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRn-3R-U5F">
-                                <rect key="frame" x="135" y="519" width="144" height="46"/>
+                                <rect key="frame" x="137" y="518" width="144" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Segue Push"/>
                                 <connections>
-                                    <segue destination="WmE-Oc-vOu" kind="show" id="qYf-FW-VYe"/>
+                                    <segue destination="WmE-Oc-vOu" kind="show" id="kDR-Na-9Ht"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w57-jw-rDe">
@@ -51,17 +51,38 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="EF0-Kn-2I4">
             <objects>
-                <viewController id="WmE-Oc-vOu" sceneMemberID="viewController">
+                <viewController id="WmE-Oc-vOu" customClass="secondViewController" customModule="HackwichTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yma-d0-LKg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFB-BN-K79">
+                                <rect key="frame" x="174" y="106" width="67" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1h-Ms-Vjh">
+                                <rect key="frame" x="129" y="403" width="167" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeColorButtonPressed:" destination="WmE-Oc-vOu" eventType="touchUpInside" id="cEa-hZ-CEd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ETu-eD-49o"/>
                     </view>
-                    <navigationItem key="navigationItem" id="K9s-GV-zxu"/>
+                    <navigationItem key="navigationItem" id="V27-b3-xk8"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="mFB-BN-K79" id="phm-2p-AeV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHp-u6-qnO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

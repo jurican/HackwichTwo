@@ -15,6 +15,7 @@
 		A8E4263027AC848100CEEDDD /* HackwichTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4262F27AC848100CEEDDD /* HackwichTwoTests.swift */; };
 		A8E4263B27AC848100CEEDDD /* HackwichTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4263A27AC848100CEEDDD /* HackwichTwoUITests.swift */; };
 		A8E4264927AC8A1F00CEEDDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4264827AC8A1F00CEEDDD /* ViewController.swift */; };
+		A8E4264B27AC97C200CEEDDD /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E4264A27AC97C100CEEDDD /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A8E4263A27AC848100CEEDDD /* HackwichTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTwoUITests.swift; sourceTree = "<group>"; };
 		A8E4263C27AC848100CEEDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E4264827AC8A1F00CEEDDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8E4264A27AC97C100CEEDDD /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A8E4261827AC847F00CEEDDD /* AppDelegate.swift */,
 				A8E4261A27AC847F00CEEDDD /* SceneDelegate.swift */,
 				A8E4261E27AC847F00CEEDDD /* Main.storyboard */,
+				A8E4264A27AC97C100CEEDDD /* secondViewController.swift */,
 				A8E4264827AC8A1F00CEEDDD /* ViewController.swift */,
 				A8E4262127AC848000CEEDDD /* Assets.xcassets */,
 				A8E4262327AC848000CEEDDD /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E4264B27AC97C200CEEDDD /* secondViewController.swift in Sources */,
 				A8E4264927AC8A1F00CEEDDD /* ViewController.swift in Sources */,
 				A8E4261927AC847F00CEEDDD /* AppDelegate.swift in Sources */,
 				A8E4261B27AC847F00CEEDDD /* SceneDelegate.swift in Sources */,
